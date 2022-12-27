@@ -2997,7 +2997,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.5;
   color: #212529;
   text-align: center;
@@ -3038,9 +3038,9 @@ textarea.form-control-lg {
   border-color: #f7e84e;
 }
 .btn-primary:hover {
-  color: #763ac0;
-  background-color: #f7e84e;
-  border-color: #f7e84e;
+  color: #f7e84e;
+  background-color: #763ac0;
+  border-color: #763ac0;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #763ac0;
@@ -4176,6 +4176,19 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+.navbar-nav .nav-logo {
+  display: flex;
+  align-items: center;
+  
+}
+.navbar-nav a {
+  padding: 0;
+  margin: 0;
+}
+.navbar-nav img {
+  width: 5%;
+  align-items: center;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -11513,7 +11526,7 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 1rem;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -11530,7 +11543,7 @@ body {
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
@@ -11562,7 +11575,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), #763ac0;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
